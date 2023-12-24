@@ -1,9 +1,5 @@
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html lang="ja">
-
 <head>
-  <title>JST Clock</title>
+  <title>現在時刻</title>
   <meta http-equiv="Refresh" content="3600">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta http-equiv="Content-Script-Type" content="text/javascript">
@@ -62,14 +58,14 @@ var Text = {
           <tr>
             <td>
               <br>
-              情報通信研究機構は日本標準時を決定・維持しています。<br>
+              <br>
 <table align="center">
 <tr>
 <td>
-              <div id="ServerStat"><h3>時刻情報取得状況：　取得中</h3></div>
+              <div id="ServerStat"></div>
 </td>
 <td>
-               <a href="javascript:toggle('Details')">（時刻取得結果の表示）</a>
+               
 </td>
 </tr>
 </table>
@@ -78,7 +74,6 @@ var Text = {
            </td>
           </tr>
         </table>
-
         <hr>
         <form name="clock" onsubmit="0" action="#">
           <table summary="time" cellpadding="2" border="0" align="center">
@@ -123,25 +118,21 @@ var Text = {
         <table summary="usage" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
           <tr>
             <td>
-              <font color="#FF6600">■</font>本ページは正確な日本標準時の提供を目的としたものではありません。
               <ul>
-                <li type="square">通信回線の速度、混雑状況によっては、大きな誤差を生ずることがあります。</li>
-                <li type="square">夏時間・冬時間の切り替えは、再読み込み後に反映されます。</li>
-                <li type="square">本ページは、約１時間毎に自動再読み込みされます。</li>
-                <li type="square">このページに関するお問い合わせはこちらまで。　<img src="jst.png" align="middle" alt="toiawase" width=128 height=32 border="0"></li>
+                <li type="square"></li>
+                <li type="square"></li>
+                <li type="square"></li>
+                <li type="square"></li>
               </ul>
             </td>
           </tr>
         </table>
         <table summary="link" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
           <td align="center">
-              <a href="https://jjy.nict.go.jp/mission/page1.html"><img src="no04_00.jpg" alt="協定世界時" width="110" border="0"><br>日本標準時って何？</a>
             </td>
             <td align="center">
-              <a href="JST6.html"><img src="dekamoji.png" alt="でか文字表示" width="128" border="0"><br>大型文字表示</a>
             </td>
             <td align="center">
-              <a href="https://jjy.nict.go.jp/ntp/"><img src="tokei_awase2.png" alt="Public NTP Service" width="128" border="0"><br>NICT 公開NTPサービス</a>
             </td>
           </tr>
         </table>
@@ -150,9 +141,6 @@ var Text = {
     </tr>
     <tr>
       <td height="15" colspan="3" align="center" vAlign=middle bgcolor="#000000" class="f14">
-        <font color="#FFFFFF">
-        Copyright (C) National Institute of Information and Communications Technology. All Rights Reserved.
-        </font>
       </td>
     </tr>
   </table>
